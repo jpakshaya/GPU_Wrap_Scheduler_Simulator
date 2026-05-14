@@ -1,10 +1,11 @@
 #include <vector>
 #include "warp.cpp"
+using namespace std;
 
 class SM {
 public:
     int id;
-    std::vector<Warp> active_warps;
+    vector<Warp> active_warps;
     int clock_cycles = 0;
 
     void load_warps(int count, int inst_per_thread) {
