@@ -1,6 +1,6 @@
 # GPU Warp Scheduler Simulator
 
-A GPU warp scheduler simulator built in C++ that models how a Streaming Multiprocessor (SM) executes warps across clock cycles. Implements and compares two scheduling policies: **Round Robin** and **Greedy-Then-Oldest (GTO)** — with per-cycle execution tracing.The scheduling policy that governs which warp runs next has a direct impact on:
+A GPU warp scheduler simulator built in C++ that models how a Streaming Multiprocessor (SM) executes warps across clock cycles. Implements and compares two scheduling policies: **Round Robin** and **Greedy-Then-Oldest (GTO)** with per-cycle execution tracing. Scheduling policy impacts: 
 
 - **Latency hiding efficiency**: how well the scheduler masks stall cycles
 - **IPC (Instructions Per Cycle)**: overall throughput
